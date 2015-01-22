@@ -1,0 +1,13 @@
+{
+	"id": "com.xorcode.loadIndicator",
+	"name": "Load indicator overlay",
+	"description" : "Load indicator overlay for iOS and Android.",
+	"author": "Xorcode, LLC",
+	"version": "1.0.0",
+	"copyright":"Copyright (c) 2015 Xorcode, LLC. All rights reserved.",
+	"license":"Apache 2.0",
+	"min-alloy-version": "1.5",
+	"min-titanium-version":"3.4",
+	"tags":"activityindicator,loading,loadindicator",
+	"platforms":"ios,android"
+}

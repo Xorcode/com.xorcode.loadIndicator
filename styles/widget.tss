@@ -1,0 +1,14 @@
+"#loadingIndicator": {
+  indicatorColor: "#fff",
+  style: Ti.UI.ActivityIndicatorStyle.BIG,
+}
+
+"#loadingIndicator[platform=ios]": {
+  indicatorColor: "#fff",
+  style: Ti.UI.iPhone.ActivityIndicatorStyle.BIG,
+}
+
+"#loadingOverlay": {
+  backgroundColor: "#000000",
+  opacity: 0.5,
+}
