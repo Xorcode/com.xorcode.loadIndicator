@@ -1,6 +1,23 @@
 # Alloy *Load Indicator* widget [![Alloy](http://www-static.appcelerator.com/badges/alloy-git-badge-sq.png)](http://www.appcelerator.com/alloy/)
 Implements a load indicator overlay in Alloy.
 
+# Use it
+
+Add the widget to a `View` or `Window`. Make sure the parent element has `layout` set to `composite` before you try this.
+
+```xml
+<View id="container">
+  <Widget id="loadIndicator" src="com.xorcode.loadIndicator"/>
+</View>
+```
+
+Hide and show the widget by calling it from the controller:
+
+```javascript
+$.loadIndicator.show();
+$.loadIndicator.hide();
+```
+
 # License
 
 ```
